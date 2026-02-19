@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Nova AI</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>AI Support for Modern Businesses</h1>
+      <p>Deliver intelligent customer interactions with a seamless chatbot experience.</p>
+      <button class="primary-btn">Get Started</button>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature-box">
+      <h3>Instant Responses</h3>
+      <p>AI powered support that replies in seconds.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Smart Automation</h3>
+      <p>Reduce workload with automated conversations.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Easy Integration</h3>
+      <p>Embed into any website effortlessly.</p>
+    </div>
+  </section>
+
+  <div class="chat-icon" id="chatIcon">💬</div>
+
+  <div class="chat-container" id="chatContainer">
+    <div class="chat-header">
+      <div class="chat-title">
+        <div class="avatar"></div>
+        <div>
+          <h4>Nova AI</h4>
+          <span class="status">Online</span>
+        </div>
+      </div>
+      <span id="closeChat" class="close-btn">✕</span>
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+      <div class="message bot">Hello 👋 How can I assist you today?</div>
+    </div>
+
+    <div class="typing" id="typingIndicator">
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Write a message..." autocomplete="off" />
+      <button id="sendBtn">➤</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
